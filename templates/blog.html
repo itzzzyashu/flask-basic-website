@@ -1,0 +1,19 @@
+{% extends 'base.html' %} {% block body %}
+
+<div class="container">
+  <span id="instafeed-container"></span>
+</div>
+<script src="https://cdn.jsdelivr.net/gh/stevenschobert/instafeed.js@2.0.0rc1/src/instafeed.min.js"></script>
+<script type="text/javascript">
+  var userFeed = new Instafeed({
+    get: "user",
+    target: "instafeed-container",
+    resolution: "low_resolution",
+    template: '<a href="{{link}}"><img title="{{caption}}" src="{{image}}" /></a>',
+    accessToken: "IGQVJXMW43QnhIN05jWGRMOUVVUHp6Y3g3TThqc0puLV9Ba0JRT24yS3RsOWJPdFZA3SF8wX0NYUERqUFVTQkUxUjRobkxxUzRSMlhWaUhzRDd5SS1DeTBacERzQjJ4X0ZAieWNIS3FXNzZAnOGZATOW1lVwZDZD",
+  });
+  userFeed.run();
+</script>
+
+<!-- And the footer goes here -->
+{% endblock body %}

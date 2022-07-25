@@ -1,4 +1,5 @@
 /* To Disable Inspect and Right-Menu Element */
+
 $(document).bind("contextmenu", function (e) {
     e.preventDefault();
   });

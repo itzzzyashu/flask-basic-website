@@ -117,7 +117,7 @@
         <label for="show-search" class="search-icon"
           ><i class="fa fa-search"></i
         ></label>
-        <form action="/" class="search-box" method="post">
+        <form action="#home" class="search-box" method="post">
           <input type="text" placeholder="Search Something..." required />
           <button type="submit" class="go-icon">
             <i class="fas fa-long-arrow-alt-right"></i>
@@ -131,9 +131,22 @@
     
     
 <div class="container p-20 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 gap-5">
-      <iframe src="/" frameborder="0" width="300" height="600"></iframe>
+      <iframe src="https://www.itzzzyashu-cf.tk/" frameborder="0" width="300" height="600"></iframe>
 </div>
-
+<div class="container">
+  <span id="instafeed-container"></span>
+</div>
+<script src="https://cdn.jsdelivr.net/gh/stevenschobert/instafeed.js@2.0.0rc1/src/instafeed.min.js"></script>
+<script type="text/javascript">
+  var userFeed = new Instafeed({
+    get: "user",
+    target: "instafeed-container",
+    resolution: "low_resolution",
+    template: '<a href="{{link}}"><img title="{{caption}}" src="{{image}}" /></a>',
+    accessToken: "IGQVJXMW43QnhIN05jWGRMOUVVUHp6Y3g3TThqc0puLV9Ba0JRT24yS3RsOWJPdFZA3SF8wX0NYUERqUFVTQkUxUjRobkxxUzRSMlhWaUhzRDd5SS1DeTBacERzQjJ4X0ZAieWNIS3FXNzZAnOGZATOW1lVwZDZD",
+  });
+  userFeed.run();
+</script>
     
     
     

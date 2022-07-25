@@ -26,6 +26,7 @@
     <!-- Insert JS -->
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/stevenschobert/instafeed.js@2.0.0rc1/src/instafeed.min.js"></script>
 
     <!-- Insert Custom CSS -->
     <link rel="stylesheet" href="./assets/css/navbar.css" />
@@ -33,10 +34,11 @@
     <link rel="stylesheet" href="./assets/css/mobile-footer.css" />
 
      <!-- Insert Custom JS -->
+    <script src="../static/js/instafeed.js"></script>
 
     <!-- Style CSS and Scrip JS -->
     <link rel="stylesheet" href="./assets/css/style.css">
-    <script src="/assets/js/script.js"></script>
+    <script src="./assets/js/script.js"></script>
   </head>
 
   <body>
@@ -128,15 +130,13 @@
       </nav>
     </div>
     
-    
-    
-    
-<div class="container p-20 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 gap-5">
-      <iframe src="https://www.itzzzyashu-cf.tk/" frameborder="0" width="300" height="600"></iframe>
-</div>
 <div class="container">
-  <span id="instafeed-container"></span>
+  <h2>My Instagram Feeds</h2>
+  <div class="p-20 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 gap-5">
+     <span id="instafeed-container"></span>
+  </div>
 </div>
+    
 <script src="https://cdn.jsdelivr.net/gh/stevenschobert/instafeed.js@2.0.0rc1/src/instafeed.min.js"></script>
 <script type="text/javascript">
   var userFeed = new Instafeed({

@@ -203,6 +203,12 @@ nav .content .links {
     visibility: visible;
     transition: all 0.3s ease;
 }
+.content .links li:hover>ul>ul {
+    top: 50px;
+    opacity: 1;
+    visibility: visible;
+    transition: all 0.3s ease;
+}
 
 .content .links ul li a {
     display: block;

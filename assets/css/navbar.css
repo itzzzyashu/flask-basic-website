@@ -2,7 +2,7 @@
 
 
 .wrapper {
-    position:fixed;
+    position:absolute;
     background: #ffffff;
     width: 100%;
     z-index: 1;

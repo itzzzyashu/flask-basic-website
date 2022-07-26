@@ -1,6 +1,6 @@
 ## Hey! I'm yash from India.
 Visit my blog
 
-<a href="https://itzzzyashu.github.io/itzzzyashu-cf.github.io">
+<a href="https://itzzzyashu-cf.tk">
 <img src="./static/img/Itzzzyashu-logo.png" />
 </a>

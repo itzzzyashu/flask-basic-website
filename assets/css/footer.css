@@ -145,7 +145,6 @@ footer {
     height: 25px;
 	display: block;
 	color: #000000;
-	background-color: rgb(255, 255, 255);
 	text-align: center;
 	border: none;
 	padding: 0px;
@@ -181,8 +180,7 @@ footer {
 }
 
 .footer_socialicons ul li a.snapchat:hover {
-	background-color: #000000;
-	color:#ffff00
+	background-color: #eeff00;
 }
 
 .footer_socialicons ul li a.quora:hover {
@@ -204,6 +202,7 @@ footer {
 	-o-transition: all 0.8s;
 	-ms-transition: all 0.8s;
 	transition: all 0.8s;
+	color:#ffffff;
 }
 
 .navsocial, .footer_socialicons ul li a:hover i {

@@ -150,49 +150,6 @@ footer {
 	border-radius: 5px;
 }
 
-.footer_socialicons ul li a.facebook:hover {
-	background-color: #1100ff;
-}
-
-.footer_socialicons ul li a.instagram:hover {
-	background-color: linear-gradient(to left, #ff0000, #ff01ff #001aff);
-}
-
-.footer_socialicons ul li a.twitter:hover {
-	background: #00b5bb;
-}
-
-.footer_socialicons ul li a.telegram:hover {
-	background-color: #0084ff;
-}
-
-.footer_socialicons ul li a.tiktok:hover {
-	background: #8c00ff;
-}
-
-.footer_socialicons ul li a.github:hover {
-	background: #000000;
-}
-
-.footer_socialicons ul li a.youtube:hover {
-	background: #ff0000;
-}
-
-.footer_socialicons ul li a.snapchat:hover {
-	background: #b5bb5b;
-}
-
-.footer_socialicons ul li a.quora:hover {
-	background-color: #ff0000;
-}
-
-.footer_socialicons ul li a.reddit:hover {
-	background-color: #ff7b00;
-}
-.footer_socialicons ul li a.messenger:hover {
-	background-image: linear-gradient(to top right, #0b00ff, #e800ff, #ff0000);
-}
-
 .footer_socialicons ul li a i {
 	font-size: 15px;
     line-height: 25px;

@@ -21,8 +21,8 @@
 }
 
 .footer_socialicons ul li a.github {
-	background: #ffffff;
-  color:#000000
+	background: #000000;
+  color:#ffffff
 }
 
 .footer_socialicons ul li a.youtube {
@@ -30,9 +30,7 @@
 }
 
 .footer_socialicons ul li a.snapchat {
-	background: #fffb00;
-  font-size: 2px;
-  color:black
+	background: #c4c25f;
 }
 
 .footer_socialicons ul li a.quora {

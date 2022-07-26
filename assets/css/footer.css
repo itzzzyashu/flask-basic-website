@@ -104,17 +104,17 @@ footer {
 }
 
 .footer_address h6 a {
-	color: #fff;
+	color: #ffffff;
 	display: block;
 	text-decoration: none;
 }
 
 .footer_address h6 a i {
-	font-size: 10px;
-    width: 25px;
+	font-size: 15px;
+    width: 28px;
     height: 25px;
     color: rgb(0, 255, 0);
-    border-radius: 8px;
+    border-radius: 5px;
     border: 1px solid rgb(0 255 17);
     text-align: center;
     line-height: 20px;
@@ -144,7 +144,6 @@ footer {
 	width: 25px;
     height: 25px;
 	display: block;
-	color: #000000;
 	text-align: center;
 	border: none;
 	padding: 0px;
@@ -156,7 +155,7 @@ footer {
 }
 
 .footer_socialicons ul li a.instagram:hover {
-	background: linear-gradient(rgb(255, 0, 234), rgb(153, 0, 255), rgb(4, 0, 255));
+	background-color: linear-gradient(to left, #ff0000, #ff01ff #001aff);
 }
 
 .footer_socialicons ul li a.twitter:hover {
@@ -180,7 +179,7 @@ footer {
 }
 
 .footer_socialicons ul li a.snapchat:hover {
-	background-color: #eeff00;
+	background: #b5bb5b;
 }
 
 .footer_socialicons ul li a.quora:hover {

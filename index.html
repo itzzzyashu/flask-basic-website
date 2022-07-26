@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-
+target="_blank"
 <head>
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -55,13 +55,16 @@
       <input type="checkbox" id="show-menu" />
       <label for="show-menu" class="menu-icon"><i class="fa fa-bars"></i></label>
       <div class="content">
+<!--         My Website Name -->
         <div class="logo"><a href="/">Itzzzyashu</a></div>
+<!--           Normal Links -->
         <ul class="links">
           <li><a href="/">Home</a></li>
           <li><a href="./#about">About</a></li>
           <li>
             <a href="/blog" class="desktop-link">Blog</a>
             <input type="checkbox" id="show-blog" />
+<!--             Blog page to display my Social media feed here as well -->
             <label for="show-blog">Blog</label>
             <ul>
               <li>
@@ -84,46 +87,48 @@
               </li>
             </ul>
           </li>
+<!--           Social Account Link Menu in Navigation (Promotion..) -->
           <li>
             <a href="./#social" class="desktop-link">Social</a>
             <input type="checkbox" id="show-social" />
             <label for="show-social">Social</label>
             <ul>
               <li>
-                <a href="https://www.facebook.com/itzzzyashu"><i class="fa fa-facebook"></i> Meta</a>
+                <a target="_blank" href="https://www.facebook.com/itzzzyashu"><i class="fa fa-facebook"></i> Meta</a>
               </li>
               <li>
-                <a href="https://www.instagram.com/itzzzyashu"><i class="fa fa-instagram"></i> Instagram</a>
+                <a target="_blank" href="https://www.instagram.com/itzzzyashu"><i class="fa fa-instagram"></i> Instagram</a>
               </li>
               <li>
-                <a href="https://www.twitter.com/itzzzyashu"><i class="fa fa-twitter"></i> Twitter</a>
+                <a target="_blank" href="https://www.twitter.com/itzzzyashu"><i class="fa fa-twitter"></i> Twitter</a>
               </li>
               <li>
-                <a href="https://telegram.me/itzzzyashu"><i class="fa fa-telegram"></i> Telegram</a>
+                <a target="_blank" href="https://telegram.me/itzzzyashu"><i class="fa fa-telegram"></i> Telegram</a>
               </li>
               <li>
-                <a href="https://www.github.com/itzzzyashu"><i class="fa fa-github"></i> Github</a>
+                <a target="_blank" href="https://www.github.com/itzzzyashu"><i class="fa fa-github"></i> Github</a>
               </li>
               <li>
-                <a href="https://www.quora.com/profile/itzzzyashu"><i class="fa fa-quora"></i> Quora</a>
+                <a target="_blank" href="https://www.quora.com/profile/itzzzyashu"><i class="fa fa-quora"></i> Quora</a>
               </li>
               <li>
-                <a href="https://www.reddit.com/user/Itzzzyashu"><i class="fa fa-reddit"></i> Reddit</a>
+                <a target="_blank" href="https://www.reddit.com/user/Itzzzyashu"><i class="fa fa-reddit"></i> Reddit</a>
               </li>
               <li>
-                <a href="https://www.snapchat.com/add/itzzzyashu"><i class="fa fa-snapchat"></i> Snapchat</a>
+                <a target="_blank" href="https://www.snapchat.com/add/itzzzyashu"><i class="fa fa-snapchat"></i> Snapchat</a>
               </li>
               <li>
-                <a href="https://www.youtube.com/channel/UC64MxAX6jr2dgNU-VlPghQg"><i class="fa fa-youtube"></i>
+                <a target="_blank" href="https://www.youtube.com/channel/UC64MxAX6jr2dgNU-VlPghQg"><i class="fa fa-youtube"></i>
                   YouTube</a>
               </li>
               <li>
-                <a href="mailto:itzzzyashu@gmail.com"><i class="fa fa-envelope"></i> GMail</a>
+                <a target="_blank" href="mailto:itzzzyashu@gmail.com"><i class="fa fa-envelope"></i> GMail</a>
               </li>
             </ul>
           </li>
         </ul>
       </div>
+      
       <!-- Search box here -->
       <label for="show-search" class="search-icon"><i class="fa fa-search"></i></label>
       <form action="/search" class="search-box">
@@ -135,16 +140,17 @@
       </form>
     </nav>
   </div>
+  
+<!--   Instafeed Container  -->
   <div class="container">
-    <h2>My Instagram Feeds</h2>
     <div class="p-20 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 gap-5">
+      <h2>My Instagram Feeds</h2>
       <span id="instafeed"></span>
     </div>
   </div>
   
-  
+<!--   instafeed.js Script -->
   <script>
-    // Instafeed.js
     var userFeed = new Instafeed({
       get: "user",
       target: "instafeed",
@@ -155,7 +161,7 @@
     userFeed.run();
   </script>
   
-  
+<!--   Main Footer Lies here with links, photo, abio, and icons. -->
   <footer>
     <div class="footer_position">
       <div class="main_footer">
@@ -163,6 +169,7 @@
           <div class="row">
             <div class="col-xl-3 col-lg-3 col-md-12 col-sm-6 col-12 flex">
               <div class="footer_box">
+<!--                 My Footer Image -->
                 <a href="/"><img src="https://telegra.ph/file/de13a51b41761a6e986da.jpg" /></a>
                 <p>
                   Hey, I'm Yash from India. Welcome to Itzzzyashu, This is my
@@ -174,6 +181,7 @@
             </div>
             <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6 col-12">
               <div class="footer_box">
+<!--                 Quick links Menu for Navigation and telegram contact links -->
                 <h2>Quick Link</h2>
                 <hr />
                 <ul id="quicklink">
@@ -187,15 +195,16 @@
             </div>
             <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6 col-12">
               <div class="footer_box">
+<!--                 Projects stuffz -->
                 <h2>Projects</h2>
                 <hr />
                 <ul>
                   <li>
-                    <a href="https://github.com/TeamUltraUnion/rajniixrobot.git"><i class="fa fa-github"></i>
+                    <a target="_blank" href="https://github.com/TeamUltraUnion/rajniixrobot.git"><i class="fa fa-github"></i>
                       rajniixrobot</a>
                   </li>
                   <li>
-                    <a href="https://github.com/TeamUltraUnion/Sanatan-Raksha-System.git"><i class="fa fa-github"></i>
+                    <a target="_blank" href="https://github.com/TeamUltraUnion/Sanatan-Raksha-System.git"><i class="fa fa-github"></i>
                       Sanatan-Raksha-System</a>
                   </li>
                 </ul>
@@ -203,50 +212,52 @@
             </div>
             <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6 col-12">
               <div class="footer_box">
+<!--                 Location and Email ID-->
                 <h2>Get In Touch</h2>
                 <hr />
                 <div class="footer_address">
                   <h6>
-                    <a href="https://t.ly/q1Es"><i class="fa fa-map-marker"></i> Dehradun, Uttrakhand, India</a>
+                    <a target="_blank" href="https://t.ly/q1Es"><i class="fa fa-map-marker"></i> Dehradun, Uttrakhand, India</a>
                   </h6>
                   <h6>
-                    <a href="mailto:itzzyashu@gmail.com"><i class="fa fa-solid fa-at"></i> itzzzyashu@gmail.com</a>
+                    <a target="_blank" href="mailto:itzzyashu@gmail.com"><i class="fa fa-solid fa-at"></i> itzzzyashu@gmail.com</a>
                   </h6>
                 </div>
+<!--                 Social Icons in footer -->
                 <div class="footer_socialicons" id="social">
                   <ul>
                     <li>
-                      <a class="facebook" href="https://www.facebook.com/Itzzzyashu"><i class="fa fa-facebook"></i></a>
+                      <a target="_blank" class="facebook" href="https://www.facebook.com/Itzzzyashu"><i class="fa fa-facebook"></i></a>
                     </li>
                     <li>
-                      <a class="instagram" href="https://www.instagram.com/Itzzzyashu"><i
+                      <a target="_blank" class="instagram" href="https://www.instagram.com/Itzzzyashu"><i
                           class="fa fa-instagram"></i></a>
                     </li>
                     <li>
-                      <a class="twitter" href="https://www.twitter.com/Itzzzyashu"><i class="fa fa-twitter"></i></a>
+                      <a target="_blank" class="twitter" href="https://www.twitter.com/Itzzzyashu"><i class="fa fa-twitter"></i></a>
                     </li>
                     <li>
-                      <a class="telegram" href="https://telegram.me/itzzzyashu"><i class="fa fa-telegram"></i></a>
+                      <a target="_blank" class="telegram" href="https://telegram.me/itzzzyashu"><i class="fa fa-telegram"></i></a>
                     </li>
                     <li>
-                      <a class="messenger" href="http://m.me/itzzzyashu"><i class="fab fa-facebook-messenger"></i></a>
+                      <a target="_blank" class="messenger" href="http://m.me/itzzzyashu"><i class="fab fa-facebook-messenger"></i></a>
                     </li>
                     <br />
                     <li>
-                      <a class="snapchat" href="https://www.snapchat.com/add/itzzzyashu"><i
+                      <a target="_blank" class="snapchat" href="https://www.snapchat.com/add/itzzzyashu"><i
                           class="fa fa-snapchat"></i></a>
                     </li>
                     <li>
-                      <a class="quora" href="https://www.quora.com/profile/itzzzyashu"><i class="fa fa-quora"></i></a>
+                      <a target="_blank" class="quora" href="https://www.quora.com/profile/itzzzyashu"><i class="fa fa-quora"></i></a>
                     </li>
                     <li>
-                      <a class="reddit" href="https://www.reddit.com/user/Itzzzyashu"><i class="fa fa-reddit"></i></a>
+                      <a target="_blank" class="reddit" href="https://www.reddit.com/user/Itzzzyashu"><i class="fa fa-reddit"></i></a>
                     </li>
                     <li>
-                      <a class="github" href="https://www.github.com/Itzzzyashu"><i class="fa fa-github"></i></a>
+                      <a target="_blank" class="github" href="https://www.github.com/Itzzzyashu"><i class="fa fa-github"></i></a>
                     </li>
                     <li>
-                      <a class="youtube" href="https://www.youtube.com/channel/UC64MxAX6jr2dgNU-VlPghQg"><i
+                      <a target="_blank" class="youtube" href="https://www.youtube.com/channel/UC64MxAX6jr2dgNU-VlPghQg"><i
                           class="fa fa-youtube"></i></a>
                     </li>
                   </ul>
@@ -256,6 +267,7 @@
           </div>
         </div>
       </div>
+<!--     Bottom Footer Including Copyright -->
       <div class="footer_bottom">
         <div class="container">
           <div class="row">
@@ -271,5 +283,4 @@
     </div>
   </footer>
 </body>
-
 </html>

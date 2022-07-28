@@ -1,0 +1,54 @@
+#internet-error-container {
+    background: rgb(210, 247, 255);
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+    width: fit-content;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+#internet-error-container h1 {
+    color: #ff0000;
+    font-weight: 900;
+    align-items: center;
+    text-align: center;
+    width: auto;
+    margin: auto;
+}
+
+#internet-error-container ul>li {
+    text-align: left;
+    align-items: center;
+    list-style: square;
+    width: auto;
+    margin: auto;
+}
+
+#internet-error-container a,
+#internet-error-container h3 {
+    text-align: left;
+    font-size: 20px;
+    text-decoration: none;
+    color: #000000;
+    align-items: center;
+    width: auto;
+    margin: auto;
+}
+
+#internet-error-container a {
+    text-align: center;
+    text-decoration: none;
+    color: #00ff0d;
+    align-items: center;
+    width: auto;
+    margin: auto;
+}
+
+#internet-error-container a:hover {
+    color: #cc00ff;
+    text-decoration: none;
+}
+
+
+@media screen and (max-width: 1760px) and (min-width: )

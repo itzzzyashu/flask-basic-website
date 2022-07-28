@@ -224,8 +224,8 @@
 #contact-me-section {
     padding: 16rem 5rem 8rem 5rem;
     display: flex;
-	background-color: #1a1a1a;
-    /* background: url(../img/9-planets-6.jpg) no-repeat center center/cover; */
+	/* background-color: #1a1a1a; */
+        background: url(../img/1659028590285.jpg) no-repeat center center/cover;
 }
 
 #contact-me-section span{

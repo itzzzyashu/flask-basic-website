@@ -1,15 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta property="og:title" content="Itzzzyashu • Info - Hey, I'm Yash from India." />
-  <meta property="og:image" content="./assets/img/title-logo.png" />
+  <meta property="og:image" content="../../static/img/title-logo.png" />
   <meta property="og:description"
     content="Welcome to Itzzzyashu, This is my personal blog where I share quotes, poetries, memes, videos, programming techniques and much more entertaining stuffz to share happiness with others. | Inspired by CodeWithHarry." />
   <title>Itzzzyashu • Info</title>
-  <link rel="icon" type="image/png" href="./assets/img/title-logo.png" />
+  <link rel="icon" type="image/png" href="../static/img/title-logo.png" />
 
   <!-- Insert CSS. -->
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800&display=swap" />
@@ -20,30 +21,19 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" type="text/css" />
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
     crossorigin="anonymous">
-
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
-    crossorigin="anonymous"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@500&display=swap" rel="stylesheet">
 
   <!-- Insert Custom CSS -->
-  <link rel="stylesheet" href="./assets/css/navbar.css" />
-  <link rel="stylesheet" href="./assets/css/footer.css" />
-  <link rel="stylesheet" href="./assets/css/mobile-footer.css" />
+  <link rel="stylesheet" href="../static/css/navbar.css" />
+  <link rel="stylesheet" href="../static/css/footer.css" />
+  <link rel="stylesheet" href="../static/css/mobile-footer.css" />
+  <link rel="stylesheet" href="../static/css/internet-error.css">
 
-  
-    <!-- Insert Custom JS -->
-  <script src="./assets/js/instafeed.js"></script>
-  
-  <!-- <script src="./assets/js/instafeed.js"></script> -->
-  <script src="https://cdn.tailwindcss.com"></script>
-  <script src="https://instagram.com/embed.js"></script>
-  <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
-  <script src="https://kit.fontawesome.com/249d7d82fe.js" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/gh/stevenschobert/instafeed.js@2.0.0rc1/src/instafeed.min.js"></script>
-  
   <!-- Style CSS and Scrip JS -->
-  <link rel="stylesheet" href="./assets/css/style.css">
-  <script src="./assets/js/script.js"></script>
-  
+  <link rel="stylesheet" href="./static/css/style.css">
+  <script src="./static/js/script.js" crossorigin="anonymous"></script>
 
 </head>
 
@@ -55,80 +45,74 @@
       <input type="checkbox" id="show-menu" />
       <label for="show-menu" class="menu-icon"><i class="fa fa-bars"></i></label>
       <div class="content">
-<!--         My Website Name -->
-        <div class="logo"><a href="/">Itzzzyashu</a></div>
-<!--           Normal Links -->
+        <span class="logo">
+          <a href="/"><img src="../static/img/web-logo.png" alt="logo"> Itzzzyashu</a>
+        </span>
         <ul class="links">
-          <li><a href="/">Home</a></li>
+          <li><a href="./home">Home</a></li>
           <li><a href="./#about">About</a></li>
           <li>
             <a href="/blog" class="desktop-link">Blog</a>
             <input type="checkbox" id="show-blog" />
-<!--             Blog page to display my Social media feed here as well -->
             <label for="show-blog">Blog</label>
             <ul>
               <li>
-                <a href="./blog#facebook"><i class="fa fa-facebook"></i> Meta</a>
+                <a href="./blog#facebook-blog"><i class="fa fa-facebook"></i> Meta</a>
               </li>
               <li>
-                <a href="./#instagram"><i class="fa fa-instagram"></i> Instagram</a>
+                <a href="./blog#instagram-blog"><i class="fa fa-instagram"></i> Instagram</a>
               </li>
               <li>
-                <a href="./blog#twitter"><i class="fa fa-twitter"></i> twitter</a>
+                <a href="./blog#twitter-blog"><i class="fa fa-twitter"></i> twitter</a>
               </li>
               <li>
-                <a href="./#telegram"><i class="fa fa-telegram"></i> Telegram</a>
+                <a href="./blog#telegram-blog"><i class="fa fa-telegram"></i> Telegram</a>
               </li>
               <li>
                 <a href="./blog/myblogs"><i class="fas fa-book-dead"></i> My Blogs</a>
               </li>
             </ul>
           </li>
-<!--           Social Account Link Menu in Navigation (Promotion..) -->
           <li>
             <a href="./#social" class="desktop-link">Social</a>
             <input type="checkbox" id="show-social" />
             <label for="show-social">Social</label>
             <ul>
               <li>
-                <a target="_blank" href="https://www.facebook.com/itzzzyashu"><i class="fa fa-facebook"></i> Meta</a>
+                <a href="https://www.facebook.com/itzzzyashu"><i class="fa fa-facebook"></i> Meta</a>
               </li>
               <li>
-                <a target="_blank" href="https://www.instagram.com/itzzzyashu"><i class="fa fa-instagram"></i> Instagram</a>
+                <a href="https://www.instagram.com/itzzzyashu"><i class="fa fa-instagram"></i> Instagram</a>
               </li>
               <li>
-                <a target="_blank" href="https://www.twitter.com/itzzzyashu"><i class="fa fa-twitter"></i> Twitter</a>
+                <a href="https://www.twitter.com/itzzzyashu"><i class="fa fa-twitter"></i> Twitter</a>
               </li>
               <li>
-                <a target="_blank" class="messenger" href="http://m.me/itzzzyashu"><i class="fab fa-facebook-messenger"></i> Messenger</a>
+                <a href="https://telegram.me/itzzzyashu"><i class="fa fa-telegram"></i> Telegram</a>
               </li>
               <li>
-                <a target="_blank" href="https://telegram.me/itzzzyashu"><i class="fa fa-telegram"></i> Telegram</a>
+                <a href="https://www.github.com/itzzzyashu"><i class="fa fa-github"></i> Github</a>
               </li>
               <li>
-                <a target="_blank" href="https://www.github.com/itzzzyashu"><i class="fa fa-github"></i> Github</a>
+                <a href="https://www.quora.com/profile/itzzzyashu"><i class="fa fa-quora"></i> Quora</a>
               </li>
               <li>
-                <a target="_blank" href="https://www.quora.com/profile/itzzzyashu"><i class="fa fa-quora"></i> Quora</a>
+                <a href="https://www.reddit.com/user/Itzzzyashu"><i class="fa fa-reddit"></i> Reddit</a>
               </li>
               <li>
-                <a target="_blank" href="https://www.reddit.com/user/Itzzzyashu"><i class="fa fa-reddit"></i> Reddit</a>
+                <a href="https://www.snapchat.com/add/itzzzyashu"><i class="fa fa-snapchat"></i> Snapchat</a>
               </li>
               <li>
-                <a target="_blank" href="https://www.snapchat.com/add/itzzzyashu"><i class="fa fa-snapchat"></i> Snapchat</a>
-              </li>
-              <li>
-                <a target="_blank" href="https://www.youtube.com/channel/UC64MxAX6jr2dgNU-VlPghQg"><i class="fa fa-youtube"></i>
+                <a href="https://www.youtube.com/channel/UC64MxAX6jr2dgNU-VlPghQg"><i class="fa fa-youtube"></i>
                   YouTube</a>
               </li>
               <li>
-                <a target="_blank" href="mailto:itzzzyashu@gmail.com"><i class="fa fa-envelope"></i> GMail</a>
+                <a href="mailto:itzzzyashu@gmail.com"><i class="fa fa-envelope"></i> GMail</a>
               </li>
             </ul>
           </li>
         </ul>
       </div>
-      
       <!-- Search box here -->
       <label for="show-search" class="search-icon"><i class="fa fa-search"></i></label>
       <form action="/search" class="search-box">
@@ -140,43 +124,61 @@
       </form>
     </nav>
   </div>
+
+  {% block body %}
+
+  {% endblock body %}
   
-  <section id="instagram">
-<!--   Instafeed Container  -->
-  <div class="container-fluid absolute">
-    <div style="background: url(https://telegra.ph/file/349b16b8b64be1a4f2fa1.jpg); background-repeat: no-repeat; background-position: center; background-size: cover;"  class="p-20 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 gap-5">
-      <h2 style="color:#fff; font-weight: 600">My Instagram Feeds</h2>
+<!--   Insta Feed Container -->
+<div id="instafeed-container"></div>
+<script>
+  var userFeed = new Instafeed({
+    get: "user",
+    target: "instafeed-container",
+    resolution: "low_resolution",
+    template: "<a href="{{link}}"> <img title="{{caption}}" src="{{image}}" /></a>",
+    accessToken:
+      "IGQVJXMW43QnhIN05jWGRMOUVVUHp6Y3g3TThqc0puLV9Ba0JRT24yS3RsOWJPdFZA3SF8wX0NYUERqUFVTQkUxUjRobkxxUzRSMlhWaUhzRDd5SS1DeTBacERzQjJ4X0ZAieWNIS3FXNzZAnOGZATOW1lVwZDZD",
+  });
+  userFeed.run();
+</script>
+
+  
+  <!-- Contact Me Section -->
+  <section id="contact-me-section">
+    <div class="container">
+      <h2>Contact Me</h2>
+      <hr>
+      <form action="/" method="POST">
+        <span>
+          <label for="userfullname">Enter your Name <required>*</required> </label>
+          <input type="text" name="userfullname" placeholder="Mine: Yash Virmani" required>
+          <label for="useremail" title="Email ID, I may reply by email">Enter your Email Address <required>*</required>
+          </label>
+          <input type="email" name="useremail" placeholder="itzzzyashu@gmail.com" required>
+        </span>
+
+        <span>
+          <label for="usermobilenumber" title="So I can message you directly on whatsapp?" required>Enter your Mobile
+            Number <required>*</required></label>
+          <input type="number" name="usermobilenumber" placeholder="itzzzyashu@gmail.com">
+          <label for="userage" title="It depends on age, how to talk a junior or senior" required>Enter your Age
+            <required>*</required>
+          </label>
+          <input type="number" name="userage" placeholder="Mine: 17">
+        </span>
+
+        <label for="usermessage" title="This Message will be sent to my gmail account by your mail">Enter your Message
+          here <required>*</required></label>
+        <textarea type="email" name="usermessage" placeholder="Enter Your Message" required></textarea>
+
+        <hr>
+        <button type="submit" value="Submit" class="mt-4 btn btn-dark">Submit</button>
+      </form>
     </div>
-    <div id="container">
-      <span id="instafeed"></span>
-    </div>
-  </div>
-<!--   instafeed.js Script -->
-  <script>
-    var userFeed = new Instafeed({
-      get: "user",
-      target: "instafeed",
-      resolution: "low_resolution",
-      template: '<a href="{{link}}"><img title="{{caption}}" src="{{image}}" /></a>',
-      accessToken: "IGQVJXMW43QnhIN05jWGRMOUVVUHp6Y3g3TThqc0puLV9Ba0JRT24yS3RsOWJPdFZA3SF8wX0NYUERqUFVTQkUxUjRobkxxUzRSMlhWaUhzRDd5SS1DeTBacERzQjJ4X0ZAieWNIS3FXNzZAnOGZATOW1lVwZDZD"
-    });
-    userFeed.run();
-  </script>
-  </section>
- 
-  <section id="telegram">
-  <div class="container-fluid absolute">
-    <div style="background: url(https://telegra.ph/file/349b16b8b64be1a4f2fa1.jpg); background-repeat: no-repeat; background-position: center; background-size: cover;"  class="p-20 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 gap-5">
-      <h2 style="color:#fff; font-weight: 600">My Telegram Feeds</h2>
-    </div>
-    <div id="container">
-      <iframe src="https://telegram.me/s/itzzzyashu"><iframe>
-    </div>
-  </div>
   </section>
 
 
-<!--   Main Footer Lies here with links, photo, abio, and icons. -->
   <footer>
     <div class="footer_position">
       <div class="main_footer">
@@ -184,7 +186,6 @@
           <div class="row">
             <div class="col-xl-3 col-lg-3 col-md-12 col-sm-6 col-12 flex">
               <div class="footer_box">
-<!--                 My Footer Image -->
                 <a href="/"><img src="https://telegra.ph/file/de13a51b41761a6e986da.jpg" /></a>
                 <p>
                   Hey, I'm Yash from India. Welcome to Itzzzyashu, This is my
@@ -196,83 +197,79 @@
             </div>
             <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6 col-12">
               <div class="footer_box">
-<!--                 Quick links Menu for Navigation and telegram contact links -->
                 <h2>Quick Link</h2>
                 <hr />
                 <ul id="quicklink">
                   <li><a href="/home#home"><i class="fa-solid fa-house-chimney"></i>&nbsp; Home</a></li>
-                  <li><a href="home#about"><i class="fa-solid fa-address-card"></i>&nbsp; About</a></li>
-                  <li><a href="/blog/"><i class="fa-solid fa-blog"></i>&nbsp; Blog</a></li>
+                  <li><a href="/home#about"><i class="fa-solid fa-address-card"></i>&nbsp; About</a></li>
+                  <li><a href="/blog"><i class="fa-solid fa-blog"></i>&nbsp; Blog</a></li>
                   <li><a href="/home#contact"><i class="fa-regular fa-id-badge"></i>&nbsp; Contact</a></li>
-                  <li><a href="https://telegram.me/itzzzyashu"><i class="fa fa-telegram"></i>&nbsp; Info</a></li>
+                  <li><a href="https://telegram.me/itzzzyashu/3"><i class="fa fa-telegram"></i>&nbsp; Info</a></li>
                 </ul>
               </div>
             </div>
             <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6 col-12">
               <div class="footer_box">
-<!--                 Projects stuffz -->
                 <h2>Projects</h2>
                 <hr />
                 <ul>
                   <li>
-                    <a target="_blank" href="https://github.com/TeamUltraUnion/rajniixrobot.git"><i class="fa fa-github"></i>
+                    <a href="https://github.com/TeamUltraUnion/rajniixrobot.git"><i class="fa fa-github"></i>
                       rajniixrobot</a>
                   </li>
                   <li>
-                    <a target="_blank" href="https://github.com/TeamUltraUnion/Sanatan-Raksha-System.git"><i class="fa fa-github"></i>
+                    <a href="https://github.com/TeamUltraUnion/Sanatan-Raksha-System.git"><i class="fa fa-github"></i>
                       Sanatan-Raksha-System</a>
                   </li>
                 </ul>
               </div>
             </div>
-            <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6 col-12">
+            <div class="col-3 col-lg-3 col-md-4 col-sm-6 col-12">
               <div class="footer_box">
-<!--                 Location and Email ID-->
                 <h2>Get In Touch</h2>
                 <hr />
                 <div class="footer_address">
                   <h6>
-                    <a target="_blank" href="https://t.ly/q1Es"><i class="fa fa-map-marker"></i> Dehradun, Uttrakhand, India</a>
+                    <a href="https://t.ly/q1Es"><i class="fa fa-map-marker"></i> Dehradun, Uttrakhand, India</a>
                   </h6>
                   <h6>
-                    <a target="_blank" href="mailto:itzzyashu@gmail.com"><i class="fa fa-solid fa-at"></i> itzzzyashu@gmail.com</a>
+                    <a href="mailto:itzzyashu@gmail.com"><i class="fa fa-solid fa-at"></i> itzzzyashu@gmail.com</a>
                   </h6>
                 </div>
-<!--                 Social Icons in footer -->
                 <div class="footer_socialicons" id="social">
                   <ul>
                     <li>
-                      <a target="_blank" class="facebook" href="https://www.facebook.com/Itzzzyashu"><i class="fa fa-facebook"></i></a>
+                      <a class="facebook" href="https://www.facebook.com/Itzzzyashu"><i class="fa fa-facebook"></i></a>
                     </li>
                     <li>
-                      <a target="_blank" class="instagram" href="https://www.instagram.com/Itzzzyashu"><i
+                      <a class="instagram" href="https://www.instagram.com/Itzzzyashu"><i
                           class="fa fa-instagram"></i></a>
                     </li>
                     <li>
-                      <a target="_blank" class="twitter" href="https://www.twitter.com/Itzzzyashu"><i class="fa fa-twitter"></i></a>
+                      <a class="twitter" href="https://www.twitter.com/Itzzzyashu"><i class="fa fa-twitter"></i></a>
                     </li>
                     <li>
-                      <a target="_blank" class="telegram" href="https://telegram.me/itzzzyashu"><i class="fa fa-telegram"></i></a>
+                      <a class="telegram" href="https://telegram.me/itzzzyashu"><i class="fa fa-telegram"></i></a>
                     </li>
                     <li>
-                      <a target="_blank" class="messenger" href="http://m.me/itzzzyashu"><i class="fab fa-facebook-messenger"></i></a>
+                      <a class="messenger" href="http://m.me/itzzzyashu"><i class="fab fa-facebook-messenger"></i></a>
                     </li>
                     <br />
                     <li>
-                      <a target="_blank" class="snapchat" href="https://www.snapchat.com/add/itzzzyashu"><i
+                      <a class="snapchat" href="https://www.snapchat.com/add/itzzzyashu"><i
                           class="fa fa-snapchat"></i></a>
                     </li>
                     <li>
-                      <a target="_blank" class="quora" href="https://www.quora.com/profile/itzzzyashu"><i class="fa fa-quora"></i></a>
+                      <a class="quora" href="https://www.quora.com/profile/itzzzyashu"><i class="fa fa-quora"></i></a>
                     </li>
                     <li>
-                      <a target="_blank" class="reddit" href="https://www.reddit.com/user/Itzzzyashu"><i class="fa fa-reddit"></i></a>
+                      <a class="reddit" href="https://www.reddit.com/user/Itzzzyashu"><i class="fa fa-reddit"></i></a>
                     </li>
                     <li>
-                      <a target="_blank" class="github" href="https://www.github.com/Itzzzyashu"><i class="fa fa-github"></i></a>
+                      <a class="github" href="https://www.github.com/Itzzzyashu"><i class="fa fa-github"></i></a>
                     </li>
                     <li>
-                      <a target="_blank" class="youtube" href="https://www.youtube.com/channel/UC64MxAX6jr2dgNU-VlPghQg"><i
+                      <a class="youtube" href="https://www.youtube.com/channel/UC64MxAX6jr2dgNU-VlPghQg"><i
                           class="fa fa-youtube"></i></a>
                     </li>
                   </ul>
@@ -282,7 +279,6 @@
           </div>
         </div>
       </div>
-<!--     Bottom Footer Including Copyright -->
       <div class="footer_bottom">
         <div class="container">
           <div class="row">
@@ -297,5 +293,20 @@
       </div>
     </div>
   </footer>
+
+  <!-- Insert Exteranl JS -->
+  <script src="./assets/js/instafeed.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://instagram.com/embed.js" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.5.0.js" crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/249d7d82fe.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/gh/stevenschobert/instafeed.js@2.0.0rc1/src/instafeed.min.js"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+    crossorigin="anonymous"></script>
+
+  <!-- Insert Custom JS -->
+
 </body>
+
 </html>

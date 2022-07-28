@@ -111,7 +111,7 @@
               </li>
             </ul>
           </li>
-          <li><a href"./#about">About</a></li>
+          <li><a href"./#contact-me-section">Contact</a></li>
 
         </ul>
       </div>
@@ -126,17 +126,13 @@
       </form>
     </nav>
   </div>
-
-  {% block body %}
-
-  {% endblock body %}
-  
-<!--   Insta Feed Container -->
-<div id="instafeed-container"></div>
+ 
+ <!--   Insta Feed Container -->
+<div id="instafeed"></div>
 <script>
   var userFeed = new Instafeed({
     get: "user",
-    target: "instafeed-container",
+    target: "instafeed",
     resolution: "low_resolution",
 //     template: "<a href="{{link}}"> <img title="{{caption}}" src="{{image}}" /></a>",
     accessToken:
@@ -145,7 +141,6 @@
   userFeed.run();
 </script>
 
-  
   <!-- Contact Me Section -->
   <section id="contact-me-section">
     <div class="container">
@@ -202,10 +197,10 @@
                 <h2>Quick Link</h2>
                 <hr />
                 <ul id="quicklink">
-                  <li><a href="#home"><i class="fa-solid fa-house-chimney"></i>&nbsp; Home</a></li>
-                  <li><a href="#about"><i class="fa-solid fa-address-card"></i>&nbsp; About</a></li>
+                  <li><a href="./#home"><i class="fa-solid fa-house-chimney"></i>&nbsp; Home</a></li>
+                  <li><a href="./#about"><i class="fa-solid fa-address-card"></i>&nbsp; About</a></li>
                   <li><a href="/blog"><i class="fa-solid fa-blog"></i>&nbsp; Blog</a></li>
-                  <li><a href="#contact"><i class="fa-regular fa-id-badge"></i>&nbsp; Contact</a></li>
+                  <li><a href="./#contact-me-section"><i class="fa-regular fa-id-badge"></i>&nbsp; Contact</a></li>
                   <li><a href="https://telegram.me/itzzzyashu/3"><i class="fa fa-telegram"></i>&nbsp; Info</a></li>
                 </ul>
               </div>

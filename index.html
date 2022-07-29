@@ -132,40 +132,33 @@
 <div class="instafeed"><div>
 
 
-  <!-- Contact Me Section -->
-  <section id="contact-me-section">
-    <div class=container">
-      <h2>Contact Me</h2>
-      <hr>
-      <form action="/" method="POST">
-        <span>
-          <label for="userfullname"><required>*</required> Enter your Name</label>
-          <input type="text" name="userfullname" placeholder="I’m Yash Virmani" required>
-          <label for="useremail" title="Email ID, I may reply by email"><required>*</required> Enter your Email Address
-          </label>
-          <input type="email" name="useremail" placeholder="itzzzyashu@gmail.com" required>
-        </span>
+<!-- Contact Me Section -->
+<section id="contact-me">
+  <div class="container">
+    <h2>Contact Me</h2>
+    <form action="/" method="POST">
+      <span>
+        <label for="userfullname" title="What name you want me to call you?"><reqr>*</reqr> Enter your Name.</label>
+        <input type="text" class="contact-input" name="userfullname" placeholder="Mine: Yash Virmani" required>
+        <label for="useremail" title="Email ID, I may reply by email"><reqr>*</reqr> Enter your Email Address.</label>
+        <input type="email" class="contact-input" name="useremail" placeholder="itzzzyashu@gmail.com" required>
+      </span>
 
-        <span>
-          <label for="usermobilenumber" title="So I can message you directly on whatsapp?" required><required>*</required> Enter your Mobile
-            Number</label>
-          <input type="number" name="usermobilenumber" placeholder="itzzzyashu@gmail.com">
-          <label for="userage" title="It depends on age, how to talk a junior or senior" required><required>*</required> Enter your Age
-            
-          </label>
-          <input type="number" name="userage" placeholder="Mine is 17">
-        </span>
+      <span>
+        <label for="usermobilenumber" title="So I can message you directly on whatsapp?" required><reqr>*</reqr> Enter your Mobile Number.</label>
+        <input type="number" class="contact-input" name="usermobilenumber" placeholder="1234567890">
+        <label for="userage" title="It depends on age, how to talk a junior or senior" required><reqr>*</reqr> Enter your Age.</label>
+        <input type="number" class="contact-input" name="userage" placeholder="Mine: 17">
+      </span>
 
-        <label for="usermessage" title="This Message will be sent to my gmail account by your mail"><required>*</required> Enter your Message
-          here</label>
-        <textarea type="email" name="usermessage" placeholder="Enter Your Message" required></textarea>
+      <label for="usermessage" title="This Message will be sent to my gmail account by your mail"><reqr>*</reqr> Enter your Message here.</label>
+      <textarea type="email" class="contact-textarea" name="usermessage" placeholder="Enter Your Message" rows="3" required></textarea>
 
-        <hr>
-        <button type="submit" value="Submit" class="mt-4 btn btn-dark">Submit</button>
-      </form>
-    </div>
-  </section>
-
+      <input type="submit" value="Submit" class="mt-4 btn btn-dark"></input>
+    </form>
+  </div>
+</section>
+  
 
   <footer>
     <div class="footer_position">

@@ -193,12 +193,6 @@
 
 .footer_position {
   position: absolute;
-  top: 100%;
-  bottom: 0px;
-  left: 0px;
-  right: 0px;
-  margin: 0;
-  padding: 0;
 }
 
 .footer_position h1 {

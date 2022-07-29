@@ -52,8 +52,9 @@ pre {
   }
 }
 
-@media (min-width: 1024px){
-  .footer_position .container {
+@media (min-width: 1024px)
+.footer_position .container {
     max-width: 100%;
-    margin-top: -4%;
+    margin-top: 0%;
+    margin-bottom: 0%;
 }

@@ -110,7 +110,7 @@
     padding-top: 30px;
   }
   .main_footer {
-    padding: 40px 0px;
+      padding:0;
   }
   .footer_address h6 a {
     text-decoration: none;

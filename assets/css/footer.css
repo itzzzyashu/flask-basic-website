@@ -9,12 +9,11 @@
 .main_footer {
   width: 100%;
   height: 0%;
-  background-image: url("https://telegra.ph/file/06db5d1c569d1d1bbcb49.jpg");
+  background-image: url("https://telegra.ph/file/f3072d1e9ef600ab2d199.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: scroll;
   background-position: 50% 0%;
-  padding: 80px 0px;
   position: relative;
 }
 
@@ -96,11 +95,9 @@
 }
 
 .footer_address h6 {
-  font-size: 13px;
-  font-weight: 500;
+  font-size: 14px;
   color: #fff;
-  margin: 0px;
-  margin-top: 10px;
+  margin-top: 5px;
 }
 
 .footer_address h6 a {
@@ -111,13 +108,11 @@
 
 .footer_address h6 a i {
   font-size: 15px;
-  width: 28px;
-  height: 25px;
-  color: rgb(0, 255, 0);
-  border-radius: 5px;
-  border: 1px solid rgb(0 255 17);
+  width: 20px;
+  height: 20px;
+  color: rgb(255 255 255);
   text-align: center;
-  line-height: 20px;
+  line-height: 15px;
 }
 
 .footer_address h6 a:hover {
@@ -177,9 +172,9 @@
 
 .footer_bottom {
   width: 100%;
-  height: 4rem;
+  height: 3em;
   background: #1a1a1a;
-  padding: 10px 0px;
+  padding: 0;
 }
 
 .footer_bottom p {
@@ -223,9 +218,9 @@
 #contact-me {
   width: 100%;
   margin: auto;
-  padding: 4rem 1rem 2rem 1rem;
+  padding: 4rem 1rem 4rem 1rem;
   display: flex;
-  background: url("https://telegra.ph/file/23f9129190e0ceb5af852.jpg") no-repeat center center/cover;
+  background: url(https://telegra.ph/file/23f9129….jpg) no-repeat center center/cover;
 }
 
 #contact-me span {

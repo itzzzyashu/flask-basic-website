@@ -45,8 +45,6 @@
 }
 }
 
-
-
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .footer_position {
     position: relative;
@@ -66,10 +64,8 @@
     text-decoration: none;
   }
 }
+
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  .footer_box {
-    display: inline-flex;
-  }
   .footer_position {
     position: relative;
   }
@@ -218,12 +214,19 @@
   }
 }
 
-@media screen and (min-width: 550px) and (max-width:1010px){
+@media screen and (min-width: 550px) and (max-width:768px){
   .footer_box hr{
     background: rgb(0, 255, 0);
     width: 103px;
     height: 5px;
     border: none;
-    /* margin: 5px 0px 0px 0px; */
+  }
+  #contact-me .contact-textarea{
+    width: 100%;
+  }
+}
+@media screen and (min-width: 300px) and (max-width:550px){
+  #contact-me .contact-textarea{
+    width: 85%;
   }
 }

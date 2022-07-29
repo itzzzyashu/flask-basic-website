@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
 
 .wrapper {
-    position:fixed;
+    position:absolute;
     background: #ffffff;
     width: 100%;
-    z-index: 1;
+    z-index: 10;
     text-decoration: none;
 }
 
@@ -14,7 +14,7 @@ ul {
 }
 
 .wrapper nav {
-    position: sticky;
+    position: fixed;
     display: flex;
     max-width: calc(100% - 200px);
     margin: 0px 7px 0px 25px;
@@ -74,19 +74,25 @@ nav .content .links {
 }
 
 .content .logo a {
+    display: flex;
+    text-decoration: none;
+}
+
+.content .logo p {
     color: #000000;
     font-size: 25px;
-    font-weight: 600;
-    text-decoration: none;
-    display: flex;
+    font-weight: 900;
+    margin-top: 4px;
+    margin-bottom: 0rem;
 }
 
 .logo img {
     border-radius: 100%;
     display: flex;
     padding: 0;
-    width: 15%;
-    margin:0;
+    width: 14%;
+    height: 14%;
+    margin: 0;
 }
 
 .content .links li {
@@ -147,7 +153,7 @@ nav .content .links {
 
 .wrapper #show-search:checked~.search-box {
     opacity: 1;
-    top: 7px;
+    top: 6px;
     pointer-events: auto;
 }
 
@@ -159,8 +165,8 @@ nav .content .links {
     font-size: 15px;
     color: rgb(0 0 0);
     background: #f1f1f1;
-    padding: 0 50px 0 10px;
     border-radius: 5px;
+    padding-left: 10px;
 }
     
 .search-box input::placeholder {

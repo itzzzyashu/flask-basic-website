@@ -220,7 +220,7 @@
   margin: auto;
   padding: 4rem 1rem 4rem 1rem;
   display: flex;
-  background: url(https://telegra.ph/file/23f9129….jpg) no-repeat center center/cover;
+  background: url("https://telegra.ph/file/23f9129190e0ceb5af852.jpg") no-repeat center center/cover;
 }
 
 #contact-me span {

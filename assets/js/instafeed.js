@@ -2,10 +2,9 @@
 var userFeed = new Instafeed({
   get: "user",
   target: "instafeed",
-  // target: document.getElementById("instafeed"),
+  limit: 14,
   resolution: "low_resolution",
   template: '<a href="{{link}}"> <img title="{{caption}}" src="{{image}}" /></a>',
-  accessToken:
-    "IGQVJXMW43QnhIN05jWGRMOUVVUHp6Y3g3TThqc0puLV9Ba0JRT24yS3RsOWJPdFZA3SF8wX0NYUERqUFVTQkUxUjRobkxxUzRSMlhWaUhzRDd5SS1DeTBacERzQjJ4X0ZAieWNIS3FXNzZAnOGZATOW1lVwZDZD",
+  accessToken: "IGQVJVV2tJOFlhQkc2MFoxU2hjTUMtRk9ZATGtuakJIYWt5ZA2lsWDlKdkRiSkpZAb2JZAal9FUnhBcWU5aG0tdmxZAYTlaZAXpXQ3U2WkR5bkIwUUVvNUpGTFM1X2xzU2VjWjBCODl4ZAkdkWWQ5b3ZACcUxwbQZDZD",
 });
 userFeed.run();

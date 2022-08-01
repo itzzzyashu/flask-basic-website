@@ -1,0 +1,271 @@
+.footer {
+  position: relative;
+  padding: 0px;
+}
+.clr {
+  clear: both;
+}
+
+.main_footer {
+  width: 100%;
+  height: 0%;
+  background-image: url("https://telegra.ph/file/f3072d1e9ef600ab2d199.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: scroll;
+  background-position: 50% 0%;
+  position: relative;
+}
+
+.main_footer::before {
+  width: 100%;
+  height: 100%;
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  background: rgba(0, 0, 0, 0.76);
+}
+
+.footer_box {
+  width: 100%;
+  height: auto;
+}
+
+.footer_box img {
+  width: 215px;
+  height: auto;
+  margin-bottom: 20px;
+  border: 10px solid black;
+  border-radius: 30px;
+}
+
+.footer_box h2 {
+  font-size: 15px;
+  font-weight: 500;
+  margin-bottom: 0px;
+  color: #fff;
+}
+
+.footer_box hr {
+  color: rgb(0 255 0);
+  width: 30%;
+  height: 4px;
+  border: none;
+  margin: 2px 0px 2px 0px;
+}
+
+.footer_box p {
+  font-size: 14px;
+  color: #fff;
+  margin-bottom: 20px;
+  line-height: 24px;
+}
+
+.footer_box ul {
+  margin: 0px;
+  padding: 0px;
+}
+
+.footer_box ul li {
+  list-style-type: none;
+}
+
+.footer_box ul li a {
+  font-size: 14px;
+  color: #fff;
+  display: block;
+  padding: 5px 7px 5px 7px;
+  line-height: 20px;
+  border-bottom: 1px solid #a9a9a9;
+  transition: 0.5s;
+  text-decoration: none !important;
+  outline: none !important;
+}
+
+.footer_box ul li a:hover {
+  padding-left: 5px;
+  color: rgb(0, 255, 0);
+}
+
+.footer_address {
+  width: 100%;
+  height: auto;
+  margin-top: 20px;
+}
+
+.footer_address h6 {
+  font-size: 14px;
+  color: #fff;
+  margin-top: 5px;
+}
+
+.footer_address h6 a {
+  color: #ffffff;
+  display: block;
+  text-decoration: none;
+}
+
+.footer_address h6 a i {
+  font-size: 15px;
+  width: 20px;
+  height: 20px;
+  color: rgb(255 255 255);
+  text-align: center;
+  line-height: 15px;
+}
+
+.footer_address h6 a:hover {
+  color: rgb(0, 255, 0);
+}
+
+.footer_socialicons {
+  width: 85%;
+  height: auto;
+}
+
+.footer_socialicons ul {
+  margin: 0px;
+  padding: 0px;
+}
+
+.footer_socialicons ul li {
+  display: inline-block;
+  margin-top: 10px;
+  margin-right: 7px;
+}
+
+.footer_socialicons ul li a {
+  width: 25px;
+  height: 25px;
+  display: block;
+  text-align: center;
+  border: none;
+  padding: 0px;
+  border-radius: 5px;
+}
+
+.footer_socialicons ul li a i {
+  font-size: 15px;
+  line-height: 25px;
+  -webkit-transition: all 0.8s;
+  -moz-transition: all 0.8s;
+  -o-transition: all 0.8s;
+  -ms-transition: all 0.8s;
+  transition: all 0.8s;
+  color: #ffffff;
+}
+
+.navsocial,
+.footer_socialicons ul li a:hover i {
+  -webkit-transform: rotate(-360deg);
+  -moz-transform: rotate(360deg);
+  -o-transform: rotate(360deg);
+  -ms-transform: rotate(360deg);
+  transform: rotate(360deg);
+  color: #fff;
+}
+
+.footer_socialicons ul li a:hover {
+  background: #000000;
+}
+
+.footer_bottom {
+  width: 100%;
+  height: 3em;
+  background: #1a1a1a;
+  padding: 0;
+}
+
+.footer_bottom p {
+  padding: 2px;
+  font-size: 14px;
+  color: #fff;
+  line-height: 20px;
+}
+
+.footer_bottom p a {
+  font-size: 15px;
+  font-weight: 500;
+  color: rgb(0, 255, 0);
+  text-decoration: none;
+}
+
+.footer_position {
+  position: absolute;
+}
+
+.footer_position h1 {
+  font-size: 40px;
+  text-align: center;
+  color: #232323;
+  padding-bottom: 55px;
+  text-transform: uppercase;
+  font-weight: 800;
+}
+
+.footer_position h1 em {
+  font-style: normal;
+  color: rgb(0, 255, 0);
+}
+
+#contact-me {
+  width: 100%;
+  margin: auto;
+  padding: 4rem 1rem 4rem 1rem;
+  display: flex;
+  background: url("https://telegra.ph/file/23f9129190e0ceb5af852.jpg") no-repeat center center/cover;
+}
+
+#contact-me span {
+  display: inline-block;
+}
+
+#contact-me label {
+  margin-top: 2rem;
+  color: white;
+  display: block;
+}
+
+#contact-me h2 {
+  font-size: 2rem;
+  display: inline-block;
+  line-height: 90px;
+  color: white;
+  font-weight: 600;
+  text-align: center;
+  text-shadow: 10px 4px 10px black;
+}
+
+#contact-me .contact-input,
+#contact-me  .contact-textarea{
+  display: flex;
+  margin: 2px;
+  background-color: #00000052;
+  color: #ffffff;
+  outline: none;
+  border: 0px;
+  padding-left: 5px;
+  border-bottom: 2px solid #1eff00;
+}
+
+
+#contact-me .contact-input{
+  width: 100%;
+}
+
+#contact-me .contact-textarea{
+  width: 40%;
+}
+
+#contact-me .contact-input::placeholder,
+#contact-me .contact-textarea::placeholder {
+  color: #fffefe91;
+  font-size: 15px;
+}
+
+/* Custom tag for reuired value  */
+reqr {
+  color: #ff0000;
+  font-size: 15px;
+}

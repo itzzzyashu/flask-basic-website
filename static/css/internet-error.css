@@ -1,0 +1,30 @@
+#internet-error{
+  text-align: center;
+  background-color: rgb(255, 255, 255);
+}
+
+#internet-error h1 {
+  font-size: 80px;
+  font-weight: 800;
+  text-align: center;
+  color: rgb(255, 0, 0);
+
+}
+#internet-error h2 {
+  font-size: 25px;
+  text-align: center;
+  margin: auto;
+  color: rgb(0, 0, 0);
+
+}
+#internet-error p {
+  text-align: center;
+  font-size: 15px;
+  color: rgb(0, 0, 0);
+}
+.container {
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 15%;
+  
+}

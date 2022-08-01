@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta property="og:title" content="Itzzzyashu • Info - Hey, I'm Yash from India." />
+  <meta property="og:image" content="../static/img/title-logo.png" />
+  <meta property="og:description"
+    content="Welcome to Itzzzyashu, This is my personal blog where I share quotes, poetries, memes, videos, programming techniques and much more entertaining stuffz to share happiness with others. | Inspired by CodeWithHarry." />
+  <title>Itzzzyashu • Info</title>
+  <link rel="icon" type="image/png" href="../static/img/title-logo.png" />
+
+  <!-- Insert CSS. -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800&display=swap" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    type="text/css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    type="text/css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" type="text/css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+    crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@500&display=swap" rel="stylesheet">
+
+  <!-- Insert Custom CSS -->
+  <link rel="stylesheet" href="../static/css/navbar.css" />
+  <link rel="stylesheet" href="../static/css/footer.css" />
+  <link rel="stylesheet" href="../static/css/mobile-footer.css" />
+  <link rel="stylesheet" href="../static/css/internet-error.css">
+
+
+  <!-- Style CSS and Scrip JS -->
+  <link rel="stylesheet" href="../static/css/style.css">
+  <!-- <script src="../static/js/script.js" crossorigin="anonymous"></script> -->
+</head>
+
+<body>
+  <div class="wrapper">
+    <!-- Navigation Menu lies Here -->
+    <nav>
+      <input type="checkbox" id="show-search" />
+      <input type="checkbox" id="show-menu" />
+      <label for="show-menu" class="menu-icon"><i class="fa fa-bars"></i></label>
+      <div class="content">
+        <span class="logo">
+          <a href="/">
+            <img src="https://telegra.ph/file/92ac019ac07574edf2db3.jpg" alt="logo">
+            <p>Itzzzyashu</p>
+          </a>
+        </span>
+        <ul class="links">
+          <li class="active"><a href="/" class="scroll">Home</a></li>
+          <li><a href="./#about">About</a></li>
+          <li><a href="./blog">Blog</a></li>
+          <li>
+            <a href="./#social" class="desktop-link">Social</a>
+            <input type="checkbox" id="show-social" />
+            <label for="show-social">Social</label>
+            <ul>
+              <li>
+                <a href="https://www.facebook.com/itzzzyashu"><i class="fa fa-facebook"></i> Meta</a>
+              </li>
+              <li>
+                <a href="https://www.instagram.com/itzzzyashu"><i class="fa fa-instagram"></i> Instagram</a>
+              </li>
+              <li>
+                <a href="https://www.twitter.com/itzzzyashu"><i class="fa fa-twitter"></i> Twitter</a>
+              </li>
+              <li>
+                <a href="https://telegram.me/itzzzyashu"><i class="fa fa-telegram"></i> Telegram</a>
+              </li>
+              <li>
+                <a href="https://www.github.com/itzzzyashu"><i class="fa fa-github"></i> Github</a>
+              </li>
+              <li>
+                <a href="https://www.quora.com/profile/itzzzyashu"><i class="fa fa-quora"></i> Quora</a>
+              </li>
+              <li>
+                <a href="https://www.reddit.com/user/Itzzzyashu"><i class="fa fa-reddit"></i> Reddit</a>
+              </li>
+              <li>
+                <a href="https://www.snapchat.com/add/itzzzyashu"><i class="fa fa-snapchat"></i> Snapchat</a>
+              </li>
+              <li>
+                <a href="https://www.youtube.com/channel/UC64MxAX6jr2dgNU-VlPghQg"><i class="fa fa-youtube"></i>
+                  YouTube</a>
+              </li>
+              <li>
+                <a href="mailto:itzzzyashu@gmail.com"><i class="fa fa-envelope"></i> GMail</a>
+              </li>
+            </ul>
+          </li>
+          <li><a href="./#contact-me">Contact</a></li>
+        </ul>
+      </div>
+      <!-- Search box here -->
+      <label for="show-search" class="search-icon"><i class="fa fa-search"></i></label>
+      <form action="/" class="search-box">
+        <input type="text" placeholder="Search Something..." required />
+        <button type="submit" class="go-icon">
+          <!-- <i class="fas fa-long-arrow-alt-right"></i> -->
+          <i class="fa fa-search"></i>
+        </button>
+      </form>
+    </nav>
+  </div>
+
+{% block body %}
+{% endblock body %}
+
+<!-- Footer section -->
+<footer>
+  <div class="footer_position">
+    <div class="main_footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-xl-3 col-lg-3 col-md-12 col-sm-6 col-12 flex">
+            <div class="footer_box">
+              <a href="/"><img src="https://telegra.ph/file/de13a51b41761a6e986da.jpg"></a>
+              <p>
+                Hey, I'm Yash from India. Welcome to Itzzzyashu, This is my
+                personal blog where I share quotes, poetries, memes, videos,
+                programming techniques and much more entertaining, learning, and cool stuffz.<br>
+              </p><p style="color:rgb(0, 255, 234);">Thank you for visiting my website!</p>
+              <p></p>
+            </div>
+          </div>
+          <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6 col-12">
+            <div class="footer_box">
+              <h2>Quick Link</h2>
+              <hr>
+              <ul id="quicklink">
+                <li><a href="./#home"><i class="fa-solid fa-house-chimney"></i>&nbsp; Home</a></li>
+                <li><a href="./#about"><i class="fa-solid fa-address-card"></i>&nbsp; About</a></li>
+                <li><a href="/blog"><i class="fa-solid fa-blog"></i>&nbsp; Blog</a></li>
+                <li><a href="./#contact-me-section"><i class="fa-regular fa-id-badge"></i>&nbsp; Contact</a></li>
+                <li><a href="https://telegram.me/itzzzyashu/3"><i class="fa fa-telegram" aria-hidden="true"></i>&nbsp; Info</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6 col-12">
+            <div class="footer_box">
+              <h2>Projects</h2>
+              <hr>
+              <ul>
+                <li>
+                  <a href="https://github.com/TeamUltraUnion/rajniixrobot.git"><i class="fa fa-github" aria-hidden="true"></i>
+                    rajniixrobot</a>
+                </li>
+                <li>
+                  <a href="https://github.com/TeamUltraUnion/Sanatan-Raksha-System.git"><i class="fa fa-github" aria-hidden="true"></i>
+                    Sanatan-Raksha-System</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-3 col-lg-3 col-md-4 col-sm-6 col-12">
+            <div class="footer_box">
+              <h2>Get In Touch</h2>
+              <hr>
+              <div class="footer_address">
+                <h6>
+                  <a href="https://t.ly/q1Es"><i class="fa fa-map-marker" aria-hidden="true"></i> Dehradun, Uttrakhand, India</a>
+                </h6>
+                <h6>
+                  <a href="mailto:itzzyashu@gmail.com"><i class="fa fa-solid fa-at" aria-hidden="true"></i> itzzzyashu@gmail.com</a>
+                </h6>
+              </div>
+              <div class="footer_socialicons" id="social">
+                <ul>
+                  <li>
+                    <a class="facebook" href="https://www.facebook.com/Itzzzyashu"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                  </li>
+                  <li>
+                    <a class="instagram" href="https://www.instagram.com/Itzzzyashu"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                  </li>
+                  <li>
+                    <a class="twitter" href="https://www.twitter.com/Itzzzyashu"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                  </li>
+                  <li>
+                    <a class="telegram" href="https://telegram.me/itzzzyashu"><i class="fa fa-telegram" aria-hidden="true"></i></a>
+                  </li>
+                  <li>
+                    <a class="messenger" href="http://m.me/itzzzyashu"><i class="fab fa-facebook-messenger" aria-hidden="true"></i></a>
+                  </li>
+                  <br>
+                  <li>
+                    <a class="snapchat" href="https://www.snapchat.com/add/itzzzyashu"><i class="fa fa-snapchat" aria-hidden="true"></i></a>
+                  </li>
+                  <li>
+                    <a class="quora" href="https://www.quora.com/profile/itzzzyashu"><i class="fa fa-quora" aria-hidden="true"></i></a>
+                  </li>
+                  <li>
+                    <a class="reddit" href="https://www.reddit.com/user/Itzzzyashu"><i class="fa fa-reddit" aria-hidden="true"></i></a>
+                  </li>
+                  <li>
+                    <a class="github" href="https://www.github.com/Itzzzyashu"><i class="fa fa-github" aria-hidden="true"></i></a>
+                  </li>
+                  <li>
+                    <a class="youtube" href="https://www.youtube.com/channel/UC64MxAX6jr2dgNU-VlPghQg"><i class="fa fa-youtube" aria-hidden="true"></i></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer_bottom">
+      <div class="container">
+        <div class="row">
+          <div class="col-xl-6 col-lg-6 col-md-6 col-sm-8 col-12">
+            <p>
+              Copyright © <a href="/">itzzzyashu-cf.tk</a> • 2022<br>All
+              Rights Reserved.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+  <!-- Insert Exteranl JS -->
+  <script type="text/javascript" src="https://cdn.tailwindcss.com"></script>
+  <script type="text/javascript" src="https://instagram.com/embed.js" crossorigin="anonymous"></script>
+  <script type="text/javascript" src="https://code.jquery.com/jquery-3.5.0.js" crossorigin="anonymous"></script>
+  <script type="text/javascript" src="https://kit.fontawesome.com/249d7d82fe.js" crossorigin="anonymous"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+
+  </body>
+</html>
+

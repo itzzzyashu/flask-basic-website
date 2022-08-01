@@ -1,0 +1,58 @@
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities; */
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: "Baloo Bhaijaan 2", cursive;
+}
+
+body {
+  width: 100%;
+}
+
+section,
+.container {
+    display: block;
+    margin: 0;
+}
+
+img {
+  display: block;
+  height: 100%;
+}
+
+span {
+  display: flex;
+}
+
+@media screen and (min-width: 350px) and (max-width: 936px) {
+  .span {
+    display: block;
+  }
+}
+
+@media (min-width: 1024px) {
+  .footer_position .container {
+    max-width: 100%;
+    margin-top: 0%;
+    margin-bottom: 0%;
+  }
+}
+
+
+#home {
+  position: relative;
+  top: 0%;
+}
+
+#home > .container,
+#home .top-sliderbg {
+  max-width: 100%;
+  height: 80%;
+  margin: auto !important;
+}

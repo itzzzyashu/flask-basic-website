@@ -56,3 +56,6 @@ span {
   height: 80%;
   margin: auto !important;
 }
+#home .carousel-item>img{
+  width:fit-content
+}
